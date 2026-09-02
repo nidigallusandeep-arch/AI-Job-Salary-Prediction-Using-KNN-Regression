@@ -1,34 +1,55 @@
-# AI Job Salary Prediction Using KNN Regression
+# 💼 AI Job Salary Prediction Using KNN Regression
 
-## Project Overview
-This project uses the K-Nearest Neighbors (KNN) Regression algorithm to predict AI job salaries based on available features in the dataset.
+A Machine Learning project that predicts **AI job salaries in USD** using **K-Nearest Neighbors (KNN) Regression**.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- KNN Regression
+The project includes data preprocessing, feature scaling, K selection, model training, model evaluation, and an interactive **Streamlit dashboard**.
 
-## Machine Learning Workflow
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Selection
-5. Train-Test Split
-6. Feature Scaling
-7. KNN Regression Model
-8. Hyperparameter Tuning
-9. Model Evaluation
+##  Live Demo
 
-## Evaluation Metrics
-The model was evaluated using:
+👉 https://aijobsalaryprediction-vvswvhs7usjawrjkjtzcn8.streamlit.app/
 
-- MAE
-- MSE
-- RMSE
-- R² Score
+##  Project Overview
 
-## Conclusion
-The KNN Regression model was used to predict AI job salaries and evaluated using multiple regression metrics.
+The goal of this project is to predict the salary of an AI-related job based on important job characteristics.
+
+The model uses:
+
+- Years of Experience
+- Remote Ratio
+- Job Description Length
+- Benefits Score
+
+to predict:
+
+- **Salary (USD)**
+
+## 🧠 Machine Learning Algorithm
+
+### K-Nearest Neighbors (KNN) Regression
+
+KNN Regression predicts a continuous value by looking at the salaries of the nearest similar data points.
+
+The project also uses **StandardScaler** because KNN is distance-based and feature scales can strongly affect the result.
+
+## 🔄 Machine Learning Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Cleaning
+     ↓
+Feature Selection
+     ↓
+Train-Test Split
+     ↓
+StandardScaler
+     ↓
+Find Best K
+     ↓
+KNN Regression
+     ↓
+Prediction
+     ↓
+Model Evaluation
+     ↓
+Streamlit Dashboard
