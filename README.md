@@ -6,7 +6,7 @@ The project includes data preprocessing, feature scaling, K selection, model tra
 
 ##  Live Demo
 
-👉 https://aijobsalaryprediction-vvswvhs7usjawrjkjtzcn8.streamlit.app/
+👉 https://ai-job-salary-prediction-e7rbkacptdr8mvxnydfaf3.streamlit.app/
 
 ##  Project Overview
 
